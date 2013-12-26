@@ -530,8 +530,8 @@
                 click: function (e) {
                     e.preventDefault();
                     filesList.find('.toggle:checked')
-                        .closest('.template-download')
-                        .find('.delete').click();
+                        .prev()
+                        .click();
                     fileUploadButtonBar.find('.toggle')
                         .prop('checked', false);
                 }
