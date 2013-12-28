@@ -80,7 +80,7 @@ module S3CorsFileupload
           <div class='col-lg-5 fileupload-progress fade'>
             <!-- The global progress bar -->
             <div class='progress progress-striped active' role='progressbar' aria-valuemin='0' aria-valuemax='100'>
-              <div class='progress-bar progress-bar-success' style='width: 0%;'></div>
+              <div class='progress-bar progress-bar-success bar' style='width: 0%;'></div>
             </div>
             <!-- The extended global progress information -->
             <div class='progress-extended'>&nbsp;</div>
