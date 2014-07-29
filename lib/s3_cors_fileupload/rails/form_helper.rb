@@ -55,22 +55,22 @@ module S3CorsFileupload
         <div class='row fileupload-buttonbar'>
           <div class='col-lg-7'>
             <span class='btn btn-success fileinput-button'>
-              <i class='glyphicon glyphicon-plus'></i>
-              <span>Add files...</span>
+              <i class='fa fa-plus'></i>
+              <span>Agregar fotos...</span>
               ".html_safe +
               file_field_tag(:file, :multiple => true) + "
             </span>
             <button type='submit' class='btn btn-primary start'>
-              <i class='glyphicon glyphicon-upload'></i>
-              <span>Start upload</span>
+              <i class='fa fa-cloud-upload'></i>
+              <span>Empezar a subir</span>
             </button>
             <button type='reset' class='btn btn-warning cancel'>
-              <i class='glyphicon glyphicon-ban-circle'></i>
-              <span>Cancel upload</span>
+              <i class='fa fa-ban'></i>
+              <span>Cancelar</span>
             </button>
             <button type='button' class='btn btn-danger delete'>
-              <i class='glyphicon glyphicon-trash'></i>
-              <span>Delete</span>
+              <i class='fa fa-trash-o'></i>
+              <span>Borrar</span>
             </button>
             <input type='checkbox' class='toggle'></input>
             <!-- The loading indicator is shown during file processing -->
