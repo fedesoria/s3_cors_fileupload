@@ -86,10 +86,14 @@ module S3CorsFileupload
             <div class='progress-extended'>&nbsp;</div>
           </div>
         </div>
-        <!-- The table listing the files available for upload/download -->
-        <table role='presentation' class='table table-striped' id='upload_files'>
-          <tbody class='files'></tbody>
-        </table>".html_safe + (block ? capture(&block) : '')
+        <div class='card'>
+          <div class='card-body'>
+            <!-- The table listing the files available for upload/download -->
+            <table role='presentation' class='table table-striped' id='upload_files'>
+              <tbody class='files'></tbody>
+            </table>
+          </div>
+        </div>".html_safe + (block ? capture(&block) : '')
       end
     end
   end
