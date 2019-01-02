@@ -89,7 +89,7 @@ module S3CorsFileupload
         <div class='card'>
           <div class='card-body'>
             <!-- The table listing the files available for upload/download -->
-            <table role='presentation' class='table table-striped' id='upload_files'>
+            <table role='presentation' class='table' id='upload_files'>
               <tbody class='files'></tbody>
             </table>
           </div>
